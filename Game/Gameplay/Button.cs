@@ -1,4 +1,12 @@
-﻿using OpenTK.Mathematics;
+﻿//==============================================================================
+// Button.cs
+//==============================================================================
+// A button the player can press in the escape room. Keeps track of whether
+// it's been pressed, its location, and what color it should be. Glows orange
+// when pressed. Checks if the player is close enough to interact with it.
+//==============================================================================
+
+using OpenTK.Mathematics;
 
 namespace GAM531_Midterm
 {

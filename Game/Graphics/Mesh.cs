@@ -1,3 +1,11 @@
+//==============================================================================
+// Mesh.cs
+//==============================================================================
+// Encapsulates OpenGL mesh data including vertex buffers (VBO), element buffers
+// (EBO), and vertex array objects (VAO). Used for cubes, floors, and all other
+// 3D shapes in the game.
+//==============================================================================
+
 using OpenTK.Graphics.OpenGL4;
 
 namespace GAM531_Midterm.Graphics

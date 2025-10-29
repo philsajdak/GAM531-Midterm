@@ -1,4 +1,11 @@
-﻿using OpenTK.Graphics.OpenGL4;
+﻿//==============================================================================
+// Texture.cs
+//==============================================================================
+// Loads image files (like the floor, wall, etc) so they can be wrapped onto 3D
+// objects. Makes objects look detailed instead of just solid colors.
+//==============================================================================
+
+using OpenTK.Graphics.OpenGL4;
 using StbImageSharp;
 
 namespace GAM531_Midterm

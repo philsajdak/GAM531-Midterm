@@ -1,4 +1,11 @@
-﻿namespace GAM531_Midterm
+﻿//==============================================================================
+// Program.cs
+//==============================================================================
+// The starting point of the program. Creates the game window and starts
+// the game running.
+//==============================================================================
+
+namespace GAM531_Midterm
 {
     class Program
     {

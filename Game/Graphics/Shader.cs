@@ -1,4 +1,11 @@
-﻿using OpenTK.Graphics.OpenGL4;
+﻿//==============================================================================
+// Shader.cs
+//==============================================================================
+// This class compiles the shaders and lets us send data (colors, positions, etc)
+// to them.
+//==============================================================================
+
+using OpenTK.Graphics.OpenGL4;
 using OpenTK.Mathematics;
 
 namespace GAM531_Midterm

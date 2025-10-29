@@ -1,3 +1,11 @@
+//==============================================================================
+// phong.vert
+//==============================================================================
+// Vertex shader - Moves vertices to the right position on screen and calculates 
+// texture coordinates so images wrap correctly onto surfaces.
+// Passes data to the fragment shader.
+//==============================================================================
+
 #version 330 core
 
 layout(location = 0) in vec3 aPosition;

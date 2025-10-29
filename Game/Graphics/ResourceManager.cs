@@ -1,3 +1,11 @@
+//==============================================================================
+// ResourceManager.cs
+//==============================================================================
+// Loads all game assets when the game starts - textures (images), 3D shapes,
+// and shaders. Keeps them in one place so other parts of the game can use them.
+// Cleans everything up when the game closes to free memory.
+//==============================================================================
+
 namespace GAM531_Midterm.Graphics
 {
     public static class ResourceManager

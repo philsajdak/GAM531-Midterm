@@ -1,3 +1,11 @@
+//==============================================================================
+// phong.frag
+//==============================================================================
+// Fragment shader - Calculates lighting (shadows, highlights, glow effects) and 
+// applies textures to make everything look 3D and realistic. Handles both the 
+// main ceiling light and the glowing point lights from pressed buttons and open doors.
+//==============================================================================
+
 #version 330 core
 out vec4 FragColor;
  

@@ -1,3 +1,12 @@
+//==============================================================================
+// GameLogic.cs
+//==============================================================================
+// Contains all the game rules and interactions. Creates the room with walls,
+// buttons, and door. Checks if the player is near buttons or the door, handles
+// button pressing, unlocks the door when all buttons are pressed, and shows
+// messages on screen via title bar to guide the player.
+//==============================================================================
+
 using OpenTK.Mathematics;
 
 namespace GAM531_Midterm.Game

@@ -1,4 +1,12 @@
-﻿using OpenTK.Mathematics;
+﻿//==============================================================================
+// Camera.cs
+//==============================================================================
+// First-person camera that lets the player look around and move. Handles
+// keyboard movement (WASD), mouse looking, jumping with gravity, and zoom.
+// Creates the view matrix so we can see the game world from the player's eyes.
+//==============================================================================
+
+using OpenTK.Mathematics;
 
 namespace GAM531_Midterm
 {

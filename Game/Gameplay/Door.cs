@@ -1,4 +1,12 @@
-﻿using OpenTK.Mathematics;
+﻿//==============================================================================
+// Door.cs
+//==============================================================================
+// The exit door that opens when all buttons are pressed. Tracks whether it's
+// open or closed and changes color when unlocked. The player needs to reach
+// this door to win the game.
+//==============================================================================
+
+using OpenTK.Mathematics;
 
 namespace GAM531_Midterm
 {

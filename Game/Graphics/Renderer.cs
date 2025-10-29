@@ -1,3 +1,11 @@
+//==============================================================================
+// Renderer.cs
+//==============================================================================
+// Draws everything you see on screen. Renders the floor, walls, buttons, and
+// door with their textures and lighting. Sets up the lights in the scene
+// including the glowing effect when buttons are pressed or the door opens.
+//==============================================================================
+
 using OpenTK.Graphics.OpenGL4;
 using OpenTK.Mathematics;
 using System.Collections.Generic;

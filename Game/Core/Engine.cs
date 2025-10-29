@@ -1,3 +1,11 @@
+//==============================================================================
+// Engine.cs
+//==============================================================================
+// Main game class that runs everything. Sets up the game window, handles
+// player input (keyboard and mouse), updates the game each frame, and tells
+// the renderer what to draw. This is the heart of the game loop.
+//==============================================================================
+
 using OpenTK.Graphics.OpenGL4;
 using OpenTK.Mathematics;
 using OpenTK.Windowing.Common;
