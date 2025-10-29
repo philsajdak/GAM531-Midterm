@@ -1,6 +1,7 @@
 # GAM531 Midterm - Escape Room
 
 ![Gameplay](img/screenshot.png)
+
 A 3D first-person escape room puzzle game built with OpenTK and C#.
 
 ## Description
